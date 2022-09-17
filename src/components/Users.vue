@@ -1,8 +1,8 @@
 <template>
     <div class="container">
         <Header/>
-        <User/>
-        <Button text='Generate'/>
+        <User />
+
     </div>
 </template>
 
@@ -10,13 +10,14 @@
 
 import Header from './Header.vue';
 import User from './User.vue';
-import Button from './Button.vue';
+
 
     export default {
     name: "Users",
-    props: {},
+    props: {
+       
+    },
     components: { 
-        Button ,
         User,
         Header
     }
